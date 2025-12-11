@@ -18,6 +18,13 @@ print(book2.get_summary())
 
 book3 = Book("เศรษฐศาสตร์เบื้องต้น", "วิชัย ศรีวัฒนประภา", 2019)
 print(book3.get_summary())
+# print(book3.auther) error เพราะ attribute __author เป็น private หรือ abstract
+book4 = Book("นโยบายสาธารณะ", "ปรีดี ดาวฉาย", 2021)
+print(book4.get_summary())
+
+
+
+
 
 # สรุป : โค้ดนี้สร้างคลาส Book ที่มีคุณสมบัติ title, author, year_published และเมธอด get_summary() เพื่อแสดงข้อมูลหนังสือในรูปแบบที่อ่านง่าย โดยสร้างวัตถุ book1, book2, book3 จากคลาส Book และเรียกใช้เมธอด get_summary() เพื่อแสดงข้อมูลของแต่ละหนังสือ
 # attribute: คุณสมบัติของวัตถุ (Object) ที่ถูกสร้างขึ้นจากคลาส (Class) เช่น title, author, year_published
