@@ -19,6 +19,10 @@ print(book2.get_summary())
 book3 = Book("เศรษฐศาสตร์เบื้องต้น", "วิชัย ศรีวัฒนประภา", 2019)
 print(book3.get_summary())
 # print(book3.auther) error เพราะ attribute __author เป็น private หรือ abstract
+book4 = Book("นโยบายสาธารณะ", "ปรีดี ดาวฉาย", 2021)
+print(book4.get_summary())
+
+
 
 
 
